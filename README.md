@@ -14,10 +14,10 @@
 <body>
     <div id="map"></div>
     <script>
-        mapboxgl.accessToken = 'Nakama';
+        mapboxgl.accessToken = 'Nakama'; // Replace with your actual token
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/satellite-v9', // Use satellite style for globe effect
+            style: 'mapbox://styles/mapbox/satellite-v9',
             center: [0, 20],
             zoom: 1
         });
