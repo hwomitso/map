@@ -1,9 +1,7 @@
-# map
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Interactive Map</title>
+    <title>Interactive Globe</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css' rel='stylesheet' />
@@ -18,7 +16,7 @@
         mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
+            style: 'mapbox://styles/mapbox/satellite-v9', // Use satellite style for globe effect
             center: [0, 20],
             zoom: 1
         });
