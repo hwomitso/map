@@ -14,10 +14,10 @@
 <body>
     <div id="map"></div>
     <script>
-        mapboxgl.accessToken = 'Nakama'; // Replace with your actual token
+        mapboxgl.accessToken = 'pk.eyJ1IjoiaHdvbWl0c28iLCJhIjoiY2x5ZTk0anRqMDAxMDJpb2g4emlmZjFmZSJ9.g6rmx0D52_b3o5Ip5bbWkQ';
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/satellite-v9',
+            style: 'mapbox://styles/mapbox/satellite-v9', // Use satellite style for globe effect
             center: [0, 20],
             zoom: 1
         });
